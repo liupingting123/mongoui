@@ -10,7 +10,7 @@ module.exports = {
     "port": {
       "doc": "The Port the API server will to bind to.",
       "format": "port",
-      "default": 3001,
+      "default": 8080,
       "env": "API_PORT"
     }
   },
@@ -83,7 +83,7 @@ module.exports = {
       "port": {
         "doc": "The Port the API server will be accessible from.",
         "format": "port",
-        "default": "3001",
+        "default": "8080",
         "env": "PUB_API_PORT"
       }
     }
