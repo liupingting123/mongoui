@@ -24,7 +24,7 @@ module.exports = {
     "port": {
       "doc": "The Port the DEV server will to bind to.",
       "format": "port",
-      "default": "3000",
+      "default": "8080",
       "env": "DEV_PORT"
     }
   },
@@ -32,7 +32,7 @@ module.exports = {
     "host": {
       "doc": "The Host the database is accessible from.",
       "format": "*",
-      "default": "localhost",
+      "default": "mongodb.we-meeting.svc",
       "env": "DEP_DB_HOST"
     },
     "port": {
@@ -44,19 +44,19 @@ module.exports = {
     "name": {
       "doc": "The name of the database which will be accessed.",
       "format": "*",
-      "default": "mongoui",
+      "default": "im-main",
       "env": "DEP_DB_NAME"
     },
     "username": {
       "doc": "The username for which has permissions to access the database.",
       "format": "*",
-      "default": "",
+      "default": "imdbroot",
       "env": "DEP_DB_USER"
     },
     "password": {
       "doc": "The password for the user to access the database.",
       "format": "*",
-      "default": "",
+      "default": "lkimcore$mustbeawesome#2017",
       "env": "DEP_DB_PASS"
     }
   },
