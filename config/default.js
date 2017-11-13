@@ -50,13 +50,13 @@ module.exports = {
     "username": {
       "doc": "The username for which has permissions to access the database.",
       "format": "*",
-      "default": "imdbroot",
+      "default": "admin",
       "env": "DEP_DB_USER"
     },
     "password": {
       "doc": "The password for the user to access the database.",
       "format": "*",
-      "default": "lkimcore$mustbeawesome#2017",
+      "default": "admin",
       "env": "DEP_DB_PASS"
     }
   },
